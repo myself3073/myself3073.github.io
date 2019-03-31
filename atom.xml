@@ -51,4 +51,31 @@
     
   </entry>
   
+  <entry>
+    <title>Hexo-NexT主题配置</title>
+    <link href="http://yoursite.com/2018/01/20/Hexo-NexT%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/01/20/Hexo-NexT主题配置/</id>
+    <published>2018-01-20T12:41:08.000Z</published>
+    <updated>2019-03-31T11:44:20.325Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="模板哦"><a href="#模板哦" class="headerlink" title="模板哦"></a>模板哦</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;模板哦&quot;&gt;&lt;a href=&quot;#模板哦&quot; class=&quot;headerlink&quot; title=&quot;模板哦&quot;&gt;&lt;/a&gt;模板哦&lt;/h1&gt;
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="NexT" scheme="http://yoursite.com/tags/NexT/"/>
+    
+  </entry>
+  
 </feed>
