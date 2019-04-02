@@ -1976,7 +1976,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3dffe4;
+  background: #0699ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3111,12 +3111,11 @@ pre {
 }
 .back-to-top.back-to-top-on {
   bottom: 10px;
-color
+  color: #e2dfdc;
 }
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #e2dfdc;
   text-align: center;
 }
 #heart {
