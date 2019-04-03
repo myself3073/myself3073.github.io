@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>（：~嘻嘻~Photos</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../images/favicon-32x32-next.png">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>瀑布流展示页面</h1>
+        <div class="items">
+        </div>
+        <p class="tips loading">正在加载...</p>
+    </div>
+</body>
+<script src="./js/jquery-3.0.0.min.js"></script>
+<script src="./js/template-native.js"></script>
+<script src="js/jquery.waterfall.js"></script>
+<script type="text/template" id="waterfall">
+    <%for(var i=0; i<items.length;i++){%>
+        <div class="item">
+            <img src="<%=items[i].path%>" alt="">
+            <p><%=items[i].text%></p>
+       </div>
+    <%}%>
+</script>
+<script type="text/javascript" src="info/data.json"></script>
+<script>
+    $(function () {
+        $('.tips').on('click', function () {
+                $.ajax({
+                    url:'info/data.json',
+                    type:'GET',
+                    dataType:'json',
+                    success:function(data){
+                        var photosData = {
+                            items:data
+                        }
+                        var resultStr = template('waterfall', photosData);
+                        $('.items').append(resultStr).waterfall();
+                    }
+
+                })
+                
+            })
+
+    })
+</script>
+
+</html>

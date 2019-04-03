@@ -1,0 +1,39 @@
+body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #F7F7F7;
+            font-family: '微软雅黑';
+        }
+        .wrapper{
+            padding: 50px;
+        }
+        .wrapper>.items{
+            margin-top: 200px;
+            position: relative;
+        }
+        .wrapper>.items>.item{
+            width: 228px;
+            position: absolute;
+        }
+        .wrapper>.items>.item>img{
+            width: 100%;
+            height: 300px;
+            display: block;
+        }
+        .tips {
+                width: 280px;
+                height: 40px;
+                margin: 30px auto 0;
+                text-align: center;
+                line-height: 40px;
+                background-color: #CCC;
+                border-radius: 6px;
+                font-size: 24px;
+                cursor: pointer;
+        }
+        
+        .tips.loading {
+                background-color: transparent;
+                background-color: hotpink;
+        }
